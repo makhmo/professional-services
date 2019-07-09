@@ -13,11 +13,14 @@
 # limitations under the License.
 
 config_vars = {
-    'billing_project_id': 'billing_project',
-    'billing_dataset_id': 'billing_dataset',
-    'billing_table_name': 'billing_table',
-    'output_dataset_id': 'output_dataset',
+    'billing_project_id': 'data-analytics-pocs',
+    'billing_dataset_id': 'public',
+    'billing_table_name': 'gcp_billing_export_v1_EXAMPL_E0XD3A_DB33F1',
+    'output_project_id' : 'akhmoev-billing-poc',
+    'output_dataset_id': 'my_data_set',
     'output_table_name': 'output_table',
+    'display_name': 'scheduled_query_cud_sud_attribution',
+    'schedule': 'every 24 hours',
     'sql_file_path': 'cud_sud_attribution_query.sql',
 
     # There are two slightly different allocation methods that affect how the
