@@ -37,8 +37,7 @@ def get_policy(project_id):
     """Gets IAM policy for a project."""
 
     # pylint: disable=no-member
-    policy = service.projects().getIamPolicy(
-        resource=project_id, body={}).execute()
+    policy = service.projects().getIamPolicy(resource=project_id, body={}).execute()
     # print(policy)
     return policy
 # [END iam_get_policy]
