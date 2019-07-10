@@ -13,13 +13,13 @@
 # limitations under the License.
 
 config_vars = {
-    'billing_project_id': 'data-analytics-pocs',
+    'billing_project_id': '<billing-project-id>',
     'billing_dataset_id': 'public',
-    'billing_table_name': 'gcp_billing_export_v1_EXAMPL_E0XD3A_DB33F1',
-    'output_project_id' : 'akhmoev-billing-poc',
-    'output_dataset_id': 'my_data_set',
+    'billing_table_name': '<billing-table-name',
+    'output_project_id' : '<output-project-id>',
+    'output_dataset_id': '<output-dataset>',
     'output_table_name': 'output_table',
-    'display_name': 'scheduled_query_cud_sud_attribution',
+    'display_name': '<display-name>',
     'schedule': 'every 24 hours',
     'sql_file_path': 'cud_sud_attribution_query.sql',
 
